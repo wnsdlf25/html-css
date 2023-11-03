@@ -1,0 +1,90 @@
+#profile {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+#name {
+  color: gray;
+  margin-left: 50px;
+  margin-top: -40px;
+}
+
+#time {
+  margin-top: -15px;
+  margin-left: 52px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+#job {
+  text-align: center;
+  color: rgb(228, 77, 77);
+}
+
+#word {
+  font-size: 16px;
+}
+
+#image {
+  width: 200px;
+  height: 200px;
+  margin-top: -300px;
+  margin-left: 600px;
+  display: inline-block;
+}
+
+.container {
+  display: inline-block;
+}
+
+.information {
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+
+  background-color: cadetblue;
+  margin: 10px;
+  padding: 40px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  color: white;
+  box-shadow: 2px 3px 5px 0px black;
+}
+
+.container {
+  width: 800px;
+  padding: 50px;
+  padding-left: 50px;
+}
+
+/* navbar class 안에 있는 li */
+/* 모든 자식요소들을 전부 포함 */
+.navbar li {
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  background-color: #cccce7cc;
+  padding: 10px;
+  font-weight: 900;
+  border-radius: 7px;
+}
+
+.navbar a {
+  font-size: 16px;
+  /* 링크 밑줄 삭제 */
+  text-decoration: none;
+}
+
+/* > 를 사용하여 안에있는 직계자식만 포함 */
+/* .navbar > li {
+    display: inline-block;
+  } */
