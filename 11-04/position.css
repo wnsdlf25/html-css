@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+}
+
+.main-background {
+  width: 100%;
+  height: 1000px;
+  background-image: url(/11-03/junill.jpg);
+  background-repeat: no-repeat;
+  /* 빈공간 없이 사진으로 채운다 */
+  /* background-size: cover; */
+  /* 배경이 안짤리게 한다 */
+  background-size: contain;
+  background-position: center;
+  /* 배경 이미지가 고정이된다 */
+  /* background-attachment: fixed; */
+  /* 밝기 조정 */
+  filter: brightness(70%);
+  padding: 1px;
+}
+
+.introduce-to {
+  width: 700px;
+  height: 100px;
+  background-color: #fafafa;
+  position: relative;
+  top: 480px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.introduce-to p {
+  margin-top: -24px;
+}
+
+.main-title {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  display: fixed;
+  margin-top: 10px;
+  margin-left: 20px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(198, 8, 236);
+}
+
+.menu-list {
+  margin-left: -30px;
+}
+
+.menu-list li {
+  font-size: 24px;
+  margin-bottom: 55px;
+}
+
+.item {
+  border: 2px solid black;
+  display: inline-block;
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(198, 8, 236);
+}
+
+.login-bt {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  /* position: relative 내 위치 기준으로 좌표이동가능 */
+  /* position: relative; */
+  top: 10px;
+  left: 10px;
+  /* position: static 좌표이동 x */
+  /* position: static; */
+  /* position: fixed 현재 화면을 기준으로 고정  x */
+  /* position: fixed; */
+  /* position: absolute  내 부모 태그중 position: relative를 가진 부모를 기준으로 정한다 */
+  /* position: absolute; */
+}
