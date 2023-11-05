@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/11-05/form.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-background">
+      <h4 class="main-title">junil shop</h4>
+      <ul class="menu-list" style="list-style: none;">
+        <a href="#"
+          ><div class="item"><li>Top</li></div></a
+        >
+        <p></p>
+        <a href="#"
+          ><div class="item"><li>Pants</li></div></a
+        >
+        <p></p>
+        <a href="#"
+          ><div class="item"><li>Shoes</li></div></a
+        >
+        <p></p>
+        <a href="#"
+          ><div class="item"><li>Bag</li></div></a
+        >
+      </ul>
+      <a href="login-page">
+        <button class="login-bt">회원가입/로그인</button>
+      </a>
+      <div class="introduce-to">
+        <h3>안녕하세요!</h3>
+        <p>이곳은 junil shop입니다</p>
+      </div>
+    </div>
+    <!-- action 작성한 내용이 어떤 서버 경로로 전달될지 정함 -->
+    <!-- method 작성한 내용이 어떤 방식으로 전달될지 정함 -->
+
+    <form>
+      <!-- type을 정할 수 있음 -->
+      <!-- value로 미리 채워진 값을 정할 수 있음 -->
+      <!-- placeholder로 배경글자를 정할 수 있음 -->
+      <!-- name으로 인풋이름을 정할 수 있음 -->
+      <div class="cont-us">
+      <h1>contact us</h1>
+      <p><label for="email">Your Email</label></p>
+      <input type="email" class="email-input" id="email" placeholder="  email@example.com"/>
+      <p>
+        <label for="First" class="First-name">First name</label
+        ><label for="Last" class="Last-name">Last name</label>
+      </p>
+      <input type="text" class="fname-input" id="First" />
+      <input type="text" class="lname-input" id="Last" />
+      <p>
+        <label class="First-name" for="Message">Message</label>
+      </p>
+      <textarea rows="10" cols="77"  class="message-input" id="Message" ></textarea>
+      <br />
+      <input type="checkbox" id="check" />
+      <label for="check">Subscribe</label>
+      <button type="submit" class="send">SEND</button>
+      <!-- <select>
+        <option></option>
+        <option></option>
+        <option></option>
+      </select>
+      <textarea rows="10"></textarea>
+      <input type="submit" />  -->
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+  </body>
+</html>
